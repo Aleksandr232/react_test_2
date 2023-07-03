@@ -1,0 +1,124 @@
+.content_right{
+    position: absolute;
+    width: 686px;
+    left: 699px;
+    height: 880px;
+}
+
+.heading{
+    position: relative;
+    width: 193px;
+    top: 4px;
+    height: 24px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.art{
+    position: relative;
+    top: 4px;
+    width: 106px;
+    height: 16px;
+    color: gray;
+}
+
+.group{
+    display: grid;
+    position: relative;
+    top: 14px;
+    height: 24px;
+    width: 239px;
+    grid-template-columns: repeat(4, 83px);
+    justify-items: start;
+}
+
+.block_prices{
+    position: relative;
+    top: 120px;
+    width: 686px;
+    
+}
+
+.block_bag{
+    position: relative;
+    top: 150px;
+    height: 360px;
+    width: 686px;
+}
+
+.select{
+    width: 315px;
+    height: 44px;
+}
+
+.select_size{
+    position: relative;
+    top: 8px;
+    width: 147px;
+    height: 20px;
+}
+
+.block_button{
+    position: relative;
+    left: 20px;
+    top: 90px;
+    height: 90px;
+    width: 408px;
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+}
+
+.btn{
+    width: 145px;
+    height: 44px;
+    background: #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_pluse{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+.btn_min{
+    position: relative;
+    left: -20px;
+    cursor: pointer;
+}
+
+.btn_bag{
+    width: 203px;
+    height: 44px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_favorite{
+    position: absolute;
+    left: 375px;
+    width: 44px;
+    height: 44px;
+    background: black;
+    
+}
+
+.heart:hover{
+    fill: red;
+    cursor: pointer;
+}
+
+.click_pay{
+    position: relative;
+    top: 20px;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}

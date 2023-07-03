@@ -1,0 +1,82 @@
+.modal-content{
+   width: 378px;
+   height: 454px;
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+ }
+
+ .modal_clik{
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 276px;
+    font-weight: Regular;
+ }
+
+ .close-button{
+    position: absolute;
+    left: 360px;
+    top: 2px;
+    cursor:  pointer;
+ }
+
+ .input_phone{
+    position: relative;
+    width: 330px;
+    height: 63px;
+    margin: 0 auto;
+    top: 25%;
+    left: 5%;
+    
+ }
+
+ .input_name{
+    position: relative;
+    width: 330px;
+    height: 63px;
+    margin: 0 auto;
+    top: 35%;
+    left: 5%;
+    
+ }
+
+ .divider{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #E6E9F0;
+    top: 320px;
+ }
+
+ .text{
+    position: absolute;
+    width: 330px;
+    font-size: 10px;
+    margin:  0 auto;
+    top: 75%;
+    left: 5%;
+ }
+
+ .btn_modal{
+    position: absolute;
+    width: 135px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    top: 85%;
+    left: 5%;
+ }

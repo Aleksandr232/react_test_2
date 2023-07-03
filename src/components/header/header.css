@@ -1,0 +1,49 @@
+.header{
+    position: absolute;
+    left: 266px;
+    width: 66px;
+    top: 12px;
+    height: 16px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row{
+    position: absolute;
+    left:1246px ;
+    width: 168px;
+    top: 12px;
+    height: 24px;
+
+}
+
+
+.person{
+    position: absolute;
+    left: 45px;
+    width: 24px;
+    height: 24px;
+}
+
+.favorite{
+    position: absolute;
+    left: 93px;
+    width: 24px;
+    height: 24px;
+}
+
+.bag{
+    position: absolute;
+    left: 141px;
+    width: 24px;
+    height: 24px;
+}
+
+.reactangle{
+    position: relative;
+    width: 100%;
+    top: 48px;
+    height: 3px;
+    background: #E3EEFF;
+}
