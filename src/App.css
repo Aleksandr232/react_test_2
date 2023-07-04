@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 575px) {
+  .header{
+      position: absolute;
+      left: 39px;
+      width: 66px;
+      top: 22px;
+      height: 16px;
+      color: #000000;
+      font-size: 22px;
+      font-weight: bold;
+  }
+
+  .reactangle{
+      display: none;
+  }
+
+  .row {
+      position: relative;
+      left:329px;
+      width: 168px;
+      top: 18px;
+      height: 24px;
+  }
+
+  .content_right {
+    position: relative;
+    width: 320px;
+    left: 27px;
+    top: 730px;
+    height: 880px;
+}
+
+.footer{
+  display: none;
+}
+
+.img_cart{
+  width: 500px;
+}
+
+}

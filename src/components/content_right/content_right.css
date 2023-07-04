@@ -122,3 +122,21 @@
     color: black;
     cursor: pointer;
 }
+
+.divider_btn{
+    position: absolute;
+    width: 2px;
+    background: gray;
+    z-index: 1;
+    height: 45px;
+    left: 45px;
+}
+
+.divider_btn1{
+    position: absolute;
+    width: 2px;
+    background: gray;
+    z-index: 1;
+    height: 45px;
+    right: 306px;
+}

@@ -55,7 +55,10 @@ const ContentRight=()=>{
                 <div className='block_button'>
                     <div className='btn'>
                         <div onClick={HandleClick} className='btn_pluse'>+</div>
+                                <div className='divider_btn'></div>
+                                <div className='divider_btn1'></div>
                             <div>{count}</div>
+                                
                         <div onClick={HandleClickMin} className='btn_min'>-</div>
                     </div>
                     <div>

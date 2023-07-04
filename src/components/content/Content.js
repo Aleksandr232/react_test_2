@@ -24,8 +24,8 @@ const ImageListComponent = ({ images, onImageClick }) => {
 
 const SelectedImage = ({ selectedImage }) => {
   return (
-    <div>
-      {selectedImage && <img style={{width: '100%'}} src={selectedImage} alt="Selected Image" />}
+    <div >
+      {selectedImage && <img className="img_cart"  src={selectedImage} alt="Selected Image" />}
     </div>
   );
 };
